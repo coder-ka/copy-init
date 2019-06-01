@@ -1,0 +1,13 @@
+{
+  "files": [
+    "src/index.js",
+    "src/index.html",
+    "src/**/*.css",
+    ".babelrc",
+    ".gitignore",
+    "package.json",
+    "webpack.config.js",
+    "webpack.config.dev.js",
+    "webpack.config.build.js"
+  ]
+}

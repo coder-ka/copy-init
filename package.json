@@ -1,4 +1,5 @@
 {
+  "bin": "./bin/index.js",
   "name": "copy-init",
   "version": "1.0.0",
   "description": "Init your project with boilerplate by only copy files.",
@@ -22,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/coder-ka/copy-init/issues"
   },
-  "homepage": "https://github.com/coder-ka/copy-init#readme"
+  "homepage": "https://github.com/coder-ka/copy-init#readme",
+  "dependencies": {
+    "argv": "0.0.2",
+    "glob": "^7.1.4",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1"
+  }
 }
