@@ -1,6 +1,6 @@
 {
+  "name": "@coder-ka/copy-init",
   "bin": "./bin/index.js",
-  "name": "copy-init",
   "version": "1.0.0",
   "description": "Init your project with boilerplate by only copy files.",
   "main": "index.js",

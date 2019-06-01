@@ -4,7 +4,7 @@ When you make project with some configuration and make it boilerplate and exampl
 
 Easiest answer is copy neccesary files.
 
-So define mandatory files for your boilerplate.
+So define mandatory files for your boilerplate package. e.g. `@your-name/create-<package-name>`
 
 Make `boilerplate-files.json` in your boilerplate's root.
 
@@ -45,4 +45,11 @@ cd <path/to/my/awesome-starting-project>
 copy-init <path/to/my/boilerplate>
 ```
 
-Get Started !!
+## Programmatically usage
+
+```javascript
+const { copyFiles } = require("@coder-ka/copy-init");
+
+// returns Promise
+copyFiles("path/to/my/boilerplate");
+```
