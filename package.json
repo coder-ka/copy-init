@@ -1,0 +1,26 @@
+{
+  "name": "copy-init",
+  "version": "1.0.0",
+  "description": "Init your project with boilerplate by only copy files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coder-ka/copy-init.git"
+  },
+  "keywords": [
+    "init",
+    "copy",
+    "boilerplate",
+    "local",
+    "scaffold"
+  ],
+  "author": "coder-ka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coder-ka/copy-init/issues"
+  },
+  "homepage": "https://github.com/coder-ka/copy-init#readme"
+}
